@@ -12,7 +12,7 @@
       "vesuvio": { 
           "a" : {"text": "Vesuvio", "href": "#pizza?vesuvio", "data":{"img": "img/vesuvio.jpg", "info": "En av de enklaste och billigaste pizzorna. Man kan välja om man vill ha både tomatsås och skivad färsk tomatsås på sin vesuvio. Vill man göra vesuvio-pizzan extra barnvänlig kan man byta ut tomatsåsen mot ketchup."}}
       },
-      "Kebabpizza": { 
+      "kebabpizza": { 
           "a" : {"text": "Kebabpizza", "href": "#pizza?kebabpizza", "data":{"img": "img/kebabpizza.jpg", "info": "Kebabpizza är en flottig styggelse unikt för Sverige. En sunkig skitpizza som civiliserade länder skyr."}}
       }
   }

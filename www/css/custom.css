@@ -120,6 +120,8 @@ a.visited{
 #homeul li a{
     font-size: 14px;
     padding-left: 10px; 
+    width: 100%;
+    height: 100%;
 }
 
 
