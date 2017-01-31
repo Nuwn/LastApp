@@ -39,17 +39,43 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/loader.css" />
+    <title>Hello World</title> 
 </head>
 
 <body>
     
     <div id="app">
-        
+        <div id=header>
+            <button type="button" onclick="window.history.back();">Back</button>
+            <h1>Dat pizza dough</h1>
+        </div>
+
+        <div id="view"></div>
+    
+
+        <div id="menu">
+            <div class="tab"><a href="#home">home</a></div>
+            <div class="tab"><a href="#page2">page2</a></div>
+            <div class="tab"><a href="#page3">page3</a></div>   
+        </div>
+
+        <div id="loader">
+            <div class='loader'>
+                <div class='circle'></div>
+                <div class='circle'></div>
+                <div class='circle'></div>
+                <div class='circle'></div>
+                <div class='circle'></div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/pizza.js"></script>
+    <script type="text/javascript" src="js/list.js"></script>
+
     <script type="text/javascript" src="js/view.js"></script>
     <script type="text/javascript">
         app.initialize();
